@@ -1,12 +1,12 @@
 import HomeContent from './HomeContent';
 
 export const metadata = {
-  title: 'Commercial Trucking Insurance Solutions',
-  description: 'ALKEME Insurance Services provides specialized trucking insurance for owner-operators, fleets, and transportation businesses. Coverage for auto liability, cargo, physical damage, and more.',
+  title: 'Habitational Insurance Solutions',
+  description: 'ALKEME Insurance Services provides specialized habitational insurance for apartment buildings, condominiums, rental properties, and property management companies across all 50 states.',
   openGraph: {
-    title: 'Trucking Insurance | ALKEME Insurance Services',
-    description: 'Specialized trucking insurance for owner-operators, fleets, and transportation businesses across all 50 states.',
-    url: 'https://alkemeins.com/trucking/',
+    title: 'Habitational Insurance | ALKEME Insurance Services',
+    description: 'Specialized habitational insurance for apartment buildings, condos, and rental properties across all 50 states.',
+    url: 'https://alkemeins.com/habitational/',
   },
 };
 
@@ -26,28 +26,16 @@ export default function HomePage() {
             url: 'https://alkemeins.com',
             telephone: '+18559255363',
             email: 'info@alkemeins.com',
-            description: 'ALKEME Insurance Services provides specialized commercial trucking insurance solutions for owner-operators, fleets, and transportation businesses across all 50 states.',
+            description: 'ALKEME Insurance Services provides specialized habitational insurance solutions for apartment buildings, condominiums, rental properties, and property management companies across all 50 states.',
             areaServed: { '@type': 'Country', name: 'United States' },
-            parentOrganization: {
-              '@type': 'Organization',
-              name: 'ALKEME Insurance Services',
-              url: 'https://alkemeins.com',
-            },
+            parentOrganization: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
             foundingDate: '2003',
             numberOfEmployees: { '@type': 'QuantitativeValue', value: 100 },
-            knowsAbout: ['Commercial Trucking Insurance', 'Fleet Insurance', 'Motor Truck Cargo', 'FMCSA Compliance'],
+            knowsAbout: ['Habitational Insurance', 'Apartment Building Insurance', 'Condominium Insurance', 'Landlord Insurance'],
             hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'Licensed Insurance Brokerage' },
-            serviceType: [
-              'Commercial Trucking Insurance',
-              'Fleet Insurance',
-              'Owner-Operator Insurance',
-              'Motor Truck Cargo Insurance',
-              'Commercial Auto Liability',
-              'Physical Damage Coverage',
-              'Transportation Insurance',
-            ],
+            serviceType: ['Habitational Insurance', 'Apartment Building Insurance', 'Condominium Insurance', 'Rental Property Insurance', 'Property Management Insurance', 'HOA Insurance', 'Flood Insurance'],
             citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },
-            about: { '@type': 'Thing', name: 'Commercial Trucking Insurance' },
+            about: { '@type': 'Thing', name: 'Habitational Insurance' },
           }),
         }}
       />
@@ -58,54 +46,12 @@ export default function HomePage() {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              {
-                '@type': 'Question',
-                name: 'What insurance does a trucking company need?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'At minimum, most trucking operations require primary auto liability, physical damage, and cargo coverage. Depending on your operation, you may also need general liability, workers\' compensation, non-trucking liability, trailer interchange, and umbrella/excess coverage. We help you identify exactly what your operation requires based on your authority type, cargo, and operating radius.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do you insure both owner-operators and fleets?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes. We work with independent owner-operators running a single unit as well as fleets of all sizes — from small operations with a handful of trucks to large carriers with hundreds of power units. Our coverage programs are scaled and customized to match the size and complexity of each operation.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can you help with contract and compliance requirements?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Absolutely. We understand the insurance requirements that shippers, brokers, and regulatory bodies impose on carriers. We can help ensure your certificates of insurance, policy endorsements, and filing requirements align with your contractual obligations and FMCSA standards.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'How quickly can I get a quote?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'In most cases, we can provide an initial quote within 24 hours of receiving your completed information. For more complex accounts or large fleets, the process may take slightly longer to ensure we explore the best options across our carrier network.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do you offer cargo and physical damage coverage?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes. Motor truck cargo coverage protects the goods you haul, while physical damage coverage protects your trucks and trailers. We can tailor both coverages to your specific cargo types, vehicle values, and deductible preferences.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can coverage be customized for my operation?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Every policy we place is built around your specific operation. We consider your equipment, routes, cargo types, loss history, and business goals to design a program that provides the right coverage at a competitive price — not a generic package.',
-                },
-              },
+              { '@type': 'Question', name: 'What insurance does a residential property owner need?', acceptedAnswer: { '@type': 'Answer', text: 'At minimum, most property owners need property insurance, general liability, and loss of rental income coverage. Depending on your property type and location, you may also need flood insurance, earthquake coverage, umbrella liability, workers compensation, and environmental liability.' } },
+              { '@type': 'Question', name: 'Do you insure both individual landlords and large portfolios?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We work with individual landlords owning a single rental property as well as institutional investors and management companies with hundreds or thousands of units.' } },
+              { '@type': 'Question', name: 'Can you help with HOA and condominium association insurance?', acceptedAnswer: { '@type': 'Answer', text: 'Absolutely. We understand master policy requirements, governing document provisions, and state statutory obligations that HOAs and condo associations must meet.' } },
+              { '@type': 'Question', name: 'How quickly can I get a quote?', acceptedAnswer: { '@type': 'Answer', text: 'In most cases, we can provide an initial quote within 24 to 48 hours of receiving your completed property information.' } },
+              { '@type': 'Question', name: 'Do you offer flood and earthquake coverage?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We provide NFIP flood insurance, private flood alternatives, excess flood coverage, and earthquake insurance through specialized carriers.' } },
+              { '@type': 'Question', name: 'Can coverage be customized for my specific property?', acceptedAnswer: { '@type': 'Answer', text: 'Every program we place is built around your specific property characteristics. We do not sell generic packages \u2014 we design coverage that fits your actual risk.' } },
             ],
           }),
         }}
@@ -116,7 +62,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Commercial Trucking Insurance Solutions',
+            headline: 'Habitational Insurance Solutions',
             datePublished: '2025-06-01',
             dateModified: '2026-04-01',
             author: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },

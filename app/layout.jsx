@@ -9,30 +9,30 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://alkemeins.com/trucking'),
+  metadataBase: new URL('https://alkemeins.com/habitational'),
   title: {
     template: '%s | ALKEME Insurance Services',
-    default: 'Trucking Insurance | ALKEME Insurance Services',
+    default: 'Habitational Insurance | ALKEME Insurance Services',
   },
-  description: 'ALKEME Insurance Services provides specialized trucking insurance for owner-operators, fleets, and transportation businesses. Coverage for auto liability, cargo, physical damage, and more.',
+  description: 'ALKEME Insurance Services provides specialized habitational insurance for apartment buildings, condominiums, rental properties, and property management companies. Coverage for property, liability, flood, and more.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     siteName: 'ALKEME Insurance Services',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&h=630&q=80',
+        url: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&h=630&q=80',
         width: 1200,
         height: 630,
-        alt: 'ALKEME Insurance Services — Commercial Trucking Insurance',
+        alt: 'ALKEME Insurance Services \u2014 Habitational Insurance',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Trucking Insurance | ALKEME Insurance Services',
-    description: 'Specialized trucking insurance for owner-operators, fleets, and transportation businesses across all 50 states.',
-    images: ['https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&h=630&q=80'],
+    title: 'Habitational Insurance | ALKEME Insurance Services',
+    description: 'Specialized habitational insurance for apartment buildings, condos, and rental properties across all 50 states.',
+    images: ['https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&h=630&q=80'],
   },
   robots: {
     index: true,
@@ -46,14 +46,10 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: 'https://alkemeins.com/trucking/',
+    canonical: 'https://alkemeins.com/habitational/',
   },
   icons: {
     icon: '/favicon.svg',
-  },
-  verification: {
-    // Add your Google Search Console verification code here when ready
-    // google: 'your-verification-code',
   },
 }
 

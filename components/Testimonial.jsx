@@ -13,11 +13,11 @@ export default function Testimonial() {
           </svg>
         </div>
         <blockquote className="text-stone font-light leading-relaxed mb-8" style={{ fontSize: 'clamp(1.25rem, 3vw, 1.6rem)', lineHeight: '1.6' }}>
-          Working with this team made it easy to secure the right coverage for our fleet. They understood our operation, moved quickly, and gave us confidence that our risks were properly covered.
+          Working with this team simplified our insurance across a portfolio of 12 apartment communities. They understood our properties, identified gaps we did not know existed, and structured a program that gave us better coverage at a lower total cost.
         </blockquote>
         <div>
-          <div className="text-stone font-bold" style={{ fontSize: '1rem' }}>James Mitchell</div>
-          <div className="text-cream/70" style={{ fontSize: '0.85rem' }}>Operations Manager, Regional Freight Carrier</div>
+          <div className="text-stone font-bold" style={{ fontSize: '1rem' }}>Sarah Thornton</div>
+          <div className="text-cream/70" style={{ fontSize: '0.85rem' }}>VP of Operations, Cornerstone Property Management</div>
         </div>
       </div>
     </section>

@@ -3,12 +3,12 @@ import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const featuredResources = [
-  { slug: 'trucking-insurance-cost', title: 'How Much Does Trucking Insurance Cost?', category: 'Guide', desc: 'Average costs by fleet size, pricing factors, and strategies to reduce your premiums.' },
-  { slug: 'fmcsa-insurance-requirements', title: 'FMCSA Insurance Requirements', category: 'Guide', desc: 'Federal minimum limits, MCS-90 endorsements, BMC filings, and compliance checklist.' },
-  { slug: 'new-authority-insurance', title: 'Insurance for New Trucking Authority', category: 'Guide', desc: 'What new carriers need before their first dispatch and how to get covered.' },
-  { slug: 'commercial-auto-vs-trucking-insurance', title: 'Commercial Auto vs Trucking Insurance', category: 'Comparison', desc: 'Key differences and when you need specialized trucking coverage.' },
-  { slug: 'lower-trucking-insurance-premiums', title: 'How to Lower Your Premiums', category: 'Guide', desc: 'Practical strategies for reducing your trucking insurance costs.' },
-  { slug: 'trucking-insurance-glossary', title: 'Trucking Insurance Glossary', category: 'Reference', desc: '40+ key terms every carrier should know, explained clearly.' },
+  { slug: 'habitational-insurance-cost', title: 'How Much Does Habitational Insurance Cost?', category: 'Guide', desc: 'Average costs by property type, pricing factors, and strategies to reduce your premiums.' },
+  { slug: 'property-insurance-guide', title: 'Property Insurance Guide for Landlords', category: 'Guide', desc: 'Coverage types, policy structure, replacement cost valuation, and claims process.' },
+  { slug: 'flood-insurance-guide', title: 'Flood Insurance Guide', category: 'Guide', desc: 'NFIP coverage, private flood options, flood zone requirements, and excess flood.' },
+  { slug: 'landlord-liability-guide', title: 'Landlord Liability Guide', category: 'Guide', desc: 'Protecting against lawsuits with proper insurance and risk management.' },
+  { slug: 'hoa-insurance-guide', title: 'HOA Insurance Guide', category: 'Guide', desc: 'Master policy requirements, D&O coverage, and board member responsibilities.' },
+  { slug: 'habitational-insurance-glossary', title: 'Habitational Insurance Glossary', category: 'Reference', desc: 'Key terms every property owner should know, explained clearly.' },
 ];
 
 export default function ResourcesSection() {
@@ -23,10 +23,10 @@ export default function ResourcesSection() {
             Resources
           </p>
           <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Trucking Insurance Guides & Tools
+            Habitational Insurance Guides & Tools
           </h2>
           <p className="text-brand" style={{ fontSize: '1rem', lineHeight: '1.6' }}>
-            Expert resources to help you understand your coverage options, reduce costs, and stay compliant.
+            Expert resources to help you understand your coverage options, reduce costs, and protect your properties.
           </p>
         </div>
 

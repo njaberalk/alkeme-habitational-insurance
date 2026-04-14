@@ -14,8 +14,8 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1920&q=80"
-          alt="Commercial semi-truck driving on a highway at sunset for trucking insurance"
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1920&q=80"
+          alt="Modern apartment building exterior for habitational insurance"
           width={1920}
           height={1080}
           loading="eager"
@@ -23,7 +23,6 @@ export default function Hero() {
           style={{ opacity: 0.5, objectPosition: '50% 0%', filter: 'grayscale(100%)' }}
         />
         <div className="absolute inset-0 bg-brand" style={{ opacity: 0.45 }} />
-        {/* Grain texture overlay */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
@@ -50,9 +49,9 @@ export default function Hero() {
               transition: 'opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s',
             }}
           >
-            <span className="text-stone">Coverage Built for</span>
+            <span className="text-stone">Protect Every</span>
             <br />
-            <span className="text-gold">the Road Ahead.</span>
+            <span className="text-gold">Property.</span>
           </h1>
 
           <p
@@ -67,7 +66,7 @@ export default function Hero() {
               transition: 'opacity 0.6s ease 0.3s, transform 0.6s ease 0.3s',
             }}
           >
-            We help trucking companies find the right insurance. Our team covers auto liability, cargo, physical damage, and more. We work with owner-operators and fleets in all 50 states.
+            We help property owners and managers find the right insurance. Our team covers apartments, condos, HOAs, and rental properties in all 50 states.
           </p>
 
           <p
@@ -82,7 +81,7 @@ export default function Hero() {
             }}
             className="mb-8"
           >
-            ALKEME is a licensed insurance broker. We offer trucking insurance such as auto liability, cargo, and physical damage. We serve owner-operators and fleets in every state.
+            ALKEME is a licensed insurance broker. We offer habitational insurance including property, liability, and loss of rental income coverage. We serve landlords and property managers nationwide.
           </p>
 
           <div

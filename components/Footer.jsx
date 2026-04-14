@@ -10,24 +10,24 @@ const alkemeLinks = [
 ];
 
 const coverageLinks = [
-  { label: 'Auto Liability', href: '/coverage/auto-liability/' },
-  { label: 'Physical Damage', href: '/coverage/physical-damage/' },
-  { label: 'Motor Truck Cargo', href: '/coverage/motor-truck-cargo/' },
+  { label: 'Property Insurance', href: '/coverage/property-insurance/' },
   { label: 'General Liability', href: '/coverage/general-liability/' },
-  { label: 'Workers\' Comp', href: '/coverage/workers-compensation/' },
-  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess-liability/' },
+  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess/' },
+  { label: 'Flood Insurance', href: '/coverage/flood-insurance/' },
+  { label: "Workers' Comp", href: '/coverage/workers-compensation/' },
+  { label: 'Loss of Rental Income', href: '/coverage/loss-of-rental-income/' },
 ];
 
 const industryLinks = [
-  { label: 'Owner-Operators', href: '/industries/owner-operators/' },
-  { label: 'Small Fleets', href: '/industries/small-fleets/' },
-  { label: 'Large Fleets', href: '/industries/large-fleets/' },
-  { label: 'Flatbed', href: '/industries/flatbed/' },
-  { label: 'Refrigerated', href: '/industries/refrigerated/' },
-  { label: 'Hazmat', href: '/industries/hazmat/' },
+  { label: 'Multifamily Complexes', href: '/industries/multifamily-complexes/' },
+  { label: 'Luxury Condominiums', href: '/industries/luxury-condominiums/' },
+  { label: 'HOA Insurance', href: '/industries/homeowners-associations/' },
+  { label: 'Property Management', href: '/industries/property-management/' },
+  { label: 'Senior Living', href: '/industries/senior-living-communities/' },
+  { label: 'Vacation Rentals', href: '/industries/vacation-rentals/' },
 ];
 
-const truckingLinks = [
+const habitationalLinks = [
   { label: 'Why Choose Us', href: '/#why-us' },
   { label: 'Our Process', href: '/#process' },
   { label: 'FAQ', href: '/#faq' },
@@ -39,7 +39,6 @@ export default function Footer() {
     <footer className="bg-stone">
       <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4" style={{ paddingTop: '6rem', paddingBottom: '3rem' }}>
         <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-8">
-          {/* Brand */}
           <div className="lg:col-span-2">
             <a href="https://alkemeins.com" className="flex items-center gap-2 mb-5 no-underline">
               <img
@@ -50,7 +49,7 @@ export default function Footer() {
               />
             </a>
             <p className="text-brand/60 mb-6" style={{ fontSize: '0.9rem', lineHeight: '1.5' }}>
-              ALKEME Insurance Services is a nationally recognized insurance brokerage providing specialized transportation and trucking insurance solutions across all 50 states.
+              ALKEME Insurance Services is a nationally recognized insurance brokerage providing specialized habitational and residential property insurance solutions across all 50 states.
             </p>
             <div className="space-y-2">
               <a href="tel:+18559255363" className="block text-brand hover:text-blue-dark no-underline" style={{ fontSize: '0.95rem', lineHeight: '1.5', transition: 'all 0.2s' }}>
@@ -62,7 +61,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* ALKEME Links - cross-link to main site */}
           <div>
             <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>ALKEME</h4>
             <ul className="space-y-3 list-none p-0 m-0">
@@ -74,7 +72,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Trucking Coverage */}
           <div>
             <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>Coverage</h4>
             <ul className="space-y-3 list-none p-0 m-0">
@@ -86,7 +83,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Industries */}
           <div>
             <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>Industries</h4>
             <ul className="space-y-3 list-none p-0 m-0">
@@ -98,11 +94,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Trucking Hub */}
           <div>
-            <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>Trucking</h4>
+            <h4 className="text-brand font-bold mb-5 text-right max-lg:text-left" style={{ fontSize: '1rem' }}>Habitational</h4>
             <ul className="space-y-3 list-none p-0 m-0">
-              {truckingLinks.map((link) => (
+              {habitationalLinks.map((link) => (
                 <li key={link.label} className="text-right max-lg:text-left">
                   <Link href={link.href} className="text-brand hover:text-blue-dark no-underline" style={{ fontSize: '0.9rem', lineHeight: '1.5', transition: 'all 0.2s' }}>{link.label}</Link>
                 </li>
@@ -112,7 +107,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="border-t border-ash">
         <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">

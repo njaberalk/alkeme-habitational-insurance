@@ -3,12 +3,12 @@ import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const featuredPosts = [
-  { slug: 'trucking-insurance-market-trends-2026', title: 'Trucking Insurance Market Trends: What Carriers Need to Know', category: 'Industry Insights' },
-  { slug: 'mistakes-new-carriers-make-insurance', title: '5 Insurance Mistakes New Trucking Companies Make', category: 'Tips & Advice' },
-  { slug: 'nuclear-verdicts-trucking-industry', title: 'Nuclear Verdicts and the Trucking Industry', category: 'Industry Insights' },
-  { slug: 'fleet-safety-programs-lower-premiums', title: 'How Fleet Safety Programs Can Lower Your Premiums', category: 'Tips & Advice' },
-  { slug: 'what-to-do-after-trucking-accident', title: 'What to Do After a Trucking Accident', category: 'Claims Guide' },
-  { slug: 'choosing-right-trucking-insurance-agent', title: 'How to Choose the Right Trucking Insurance Agent', category: 'Tips & Advice' },
+  { slug: 'habitational-insurance-market-trends-2026', title: 'Habitational Insurance Market Trends: What Property Owners Need to Know', category: 'Industry Insights' },
+  { slug: 'common-insurance-mistakes-property-owners', title: '5 Insurance Mistakes Property Owners Make', category: 'Tips & Advice' },
+  { slug: 'flood-risks-property-owners', title: 'Understanding Flood Risks for Property Owners', category: 'Industry Insights' },
+  { slug: 'property-management-liability-risks', title: 'Liability Risks Every Property Manager Should Know', category: 'Tips & Advice' },
+  { slug: 'hoa-coverage-essentials', title: 'HOA Insurance Essentials for Board Members', category: 'Tips & Advice' },
+  { slug: 'climate-change-property-insurance-impact', title: 'How Climate Change Is Reshaping Property Insurance', category: 'Industry Insights' },
 ];
 
 export default function BlogSection() {
@@ -23,10 +23,10 @@ export default function BlogSection() {
             Insights
           </p>
           <h2 className="text-stone font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Trucking Insurance Insights & Advice
+            Habitational Insurance Insights & Advice
           </h2>
           <p className="text-cream font-light" style={{ lineHeight: '22px' }}>
-            Expert perspectives on coverage, compliance, and cost management for trucking operations.
+            Expert perspectives on coverage, risk management, and cost control for residential property owners.
           </p>
         </div>
 

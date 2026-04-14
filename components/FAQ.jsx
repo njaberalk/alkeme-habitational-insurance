@@ -3,12 +3,12 @@ import { useState, useRef, useEffect } from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const faqs = [
-  { q: 'What insurance does a trucking company need?', a: 'At minimum, most trucking operations require primary auto liability, physical damage, and cargo coverage. Depending on your operation, you may also need general liability, workers\' compensation, non-trucking liability, trailer interchange, and umbrella/excess coverage. We help you identify exactly what your operation requires based on your authority type, cargo, and operating radius.' },
-  { q: 'Do you insure both owner-operators and fleets?', a: 'Yes. We work with independent owner-operators running a single unit as well as fleets of all sizes — from small operations with a handful of trucks to large carriers with hundreds of power units. Our coverage programs are scaled and customized to match the size and complexity of each operation.' },
-  { q: 'Can you help with contract and compliance requirements?', a: 'Absolutely. We understand the insurance requirements that shippers, brokers, and regulatory bodies impose on carriers. We can help ensure your certificates of insurance, policy endorsements, and filing requirements align with your contractual obligations and FMCSA standards.' },
-  { q: 'How quickly can I get a quote?', a: 'In most cases, we can provide an initial quote within 24 hours of receiving your completed information. For more complex accounts or large fleets, the process may take slightly longer to ensure we explore the best options across our carrier network.' },
-  { q: 'Do you offer cargo and physical damage coverage?', a: 'Yes. Motor truck cargo coverage protects the goods you haul, while physical damage coverage protects your trucks and trailers. We can tailor both coverages to your specific cargo types, vehicle values, and deductible preferences.' },
-  { q: 'Can coverage be customized for my operation?', a: 'Every policy we place is built around your specific operation. We consider your equipment, routes, cargo types, loss history, and business goals to design a program that provides the right coverage at a competitive price — not a generic package.' },
+  { q: 'What insurance does a residential property owner need?', a: 'At minimum, most property owners need property insurance, general liability, and loss of rental income coverage. Depending on your property type and location, you may also need flood insurance, earthquake coverage, umbrella liability, workers compensation, and environmental liability. We help you identify exactly what your properties require.' },
+  { q: 'Do you insure both individual landlords and large portfolios?', a: 'Yes. We work with individual landlords owning a single rental property as well as institutional investors and management companies with hundreds or thousands of units. Our coverage programs scale to match the size and complexity of each portfolio.' },
+  { q: 'Can you help with HOA and condominium association insurance?', a: 'Absolutely. We understand the master policy requirements, governing document provisions, and state statutory obligations that HOAs and condo associations must meet. We design programs that comply with all applicable requirements while providing comprehensive protection.' },
+  { q: 'How quickly can I get a quote?', a: 'In most cases, we can provide an initial quote within 24 to 48 hours of receiving your completed property information. For more complex accounts or large portfolios, the process may take slightly longer to ensure we explore the best options across our carrier network.' },
+  { q: 'Do you offer flood and earthquake coverage?', a: 'Yes. We provide NFIP flood insurance, private flood alternatives, excess flood coverage, and earthquake insurance through specialized carriers. These coverages are excluded from standard property policies and must be addressed separately.' },
+  { q: 'Can coverage be customized for my specific property?', a: 'Every program we place is built around your specific property characteristics, including building type, age, construction, location, amenities, and tenant profile. We do not sell generic packages — we design coverage that fits your actual risk.' },
 ];
 
 function FaqItem({ faq, isOpen, onClick }) {
@@ -40,7 +40,6 @@ function FaqItem({ faq, isOpen, onClick }) {
           </svg>
         </div>
       </button>
-      {/* Animated content - height 0 to auto matching alkeme faq_content-wrap */}
       <div
         ref={contentRef}
         style={{
@@ -66,7 +65,7 @@ export default function FAQ() {
         <div ref={headerRef} className="text-center mb-14 fade-in-view">
           <p className="text-blue uppercase tracking-[0.15em] font-bold mb-4" style={{ fontSize: '0.85rem' }}>Frequently Asked Questions</p>
           <h2 className="text-brand font-bold leading-[1.3] tracking-tight" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>
-            Common Questions About Trucking Insurance
+            Common Questions About Habitational Insurance
           </h2>
         </div>
 

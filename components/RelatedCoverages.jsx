@@ -2,17 +2,17 @@
 import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
-// Basic coverage metadata for cross-linking
 const allCoverages = {
-  'auto-liability': { title: 'Primary Auto Liability', desc: 'Liability protection for at-fault accidents' },
-  'physical-damage': { title: 'Physical Damage', desc: 'Covers repair or replacement of your vehicles' },
-  'motor-truck-cargo': { title: 'Motor Truck Cargo', desc: 'Protects goods in transit' },
-  'general-liability': { title: 'General Liability', desc: 'Third-party claims outside vehicle operation' },
-  'non-trucking-liability': { title: 'Non-Trucking Liability', desc: 'Coverage for personal use of truck' },
-  'trailer-interchange': { title: 'Trailer Interchange', desc: 'Covers trailers under interchange agreements' },
-  'workers-compensation': { title: 'Workers\' Compensation', desc: 'Employee injury wage and medical benefits' },
-  'umbrella-excess-liability': { title: 'Umbrella / Excess', desc: 'Additional liability protection layer' },
-  'occupational-accident': { title: 'Occupational Accident', desc: 'Coverage for independent contractors' },
+  'property-insurance': { title: 'Property Insurance', desc: 'Building coverage at replacement cost' },
+  'general-liability': { title: 'General Liability', desc: 'Premises liability and visitor injury protection' },
+  'umbrella-excess': { title: 'Umbrella / Excess', desc: 'Additional liability protection layer' },
+  'workers-compensation': { title: "Workers' Compensation", desc: 'Employee injury wage and medical benefits' },
+  'commercial-auto': { title: 'Commercial Auto', desc: 'Maintenance vehicles and company cars' },
+  'flood-insurance': { title: 'Flood Insurance', desc: 'NFIP and private flood protection' },
+  'earthquake-coverage': { title: 'Earthquake Coverage', desc: 'Seismic damage protection' },
+  'builders-risk': { title: "Builders Risk", desc: 'Construction and renovation coverage' },
+  'environmental-liability': { title: 'Environmental Liability', desc: 'Mold, asbestos, and lead paint coverage' },
+  'loss-of-rental-income': { title: 'Loss of Rental Income', desc: 'Business interruption for landlords' },
 };
 
 export default function RelatedCoverages({ slugs, title = 'Related Coverage' }) {
