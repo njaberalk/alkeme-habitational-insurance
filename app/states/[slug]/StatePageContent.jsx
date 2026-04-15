@@ -73,7 +73,7 @@ function InternalLinks() {
           <div>
             <h3 className="text-gold font-bold uppercase tracking-[0.12em] mb-4" style={{ fontSize: '0.8rem' }}>Coverage Options</h3>
             <div className="space-y-2">
-              {['auto-liability', 'physical-damage', 'motor-truck-cargo', 'general-liability', 'workers-compensation'].map(slug => (
+              {['property-insurance', 'general-liability', 'umbrella-excess', 'workers-compensation', 'commercial-auto'].map(slug => (
                 <Link key={slug} href={`/coverage/${slug}/`} className="block text-cream hover:text-gold no-underline" style={{ fontSize: '0.85rem', transition: 'color 0.2s' }}>
                   {slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
                 </Link>
@@ -83,7 +83,7 @@ function InternalLinks() {
           <div>
             <h3 className="text-gold font-bold uppercase tracking-[0.12em] mb-4" style={{ fontSize: '0.8rem' }}>Industries We Serve</h3>
             <div className="space-y-2">
-              {['owner-operators', 'small-fleets', 'large-fleets', 'flatbed', 'hazmat'].map(slug => (
+              {['luxury-condominiums', 'multifamily-complexes', 'student-housing', 'senior-living-communities', 'mixed-use-properties'].map(slug => (
                 <Link key={slug} href={`/industries/${slug}/`} className="block text-cream hover:text-gold no-underline" style={{ fontSize: '0.85rem', transition: 'color 0.2s' }}>
                   {slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
                 </Link>
@@ -96,7 +96,7 @@ function InternalLinks() {
               {[
                 { slug: 'habitational-insurance-cost', label: 'How Much Does Habitational Insurance Cost?' },
                 { slug: 'property-insurance-guide', label: 'Property Insurance Guide' },
-                { slug: 'new-authority-insurance', label: 'New Authority Insurance' },
+                { slug: 'habitational-liability-guide', label: 'Habitational Liability Guide' },
                 { slug: 'landlord-liability-guide', label: 'Landlord Liability Guide' },
               ].map(r => (
                 <Link key={r.slug} href={`/resources/${r.slug}/`} className="block text-cream hover:text-gold no-underline" style={{ fontSize: '0.85rem', transition: 'color 0.2s' }}>
