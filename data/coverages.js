@@ -174,7 +174,7 @@ export const coverages = [
     slug: 'workers-compensation',
     title: 'Workers\' Compensation',
     metaTitle: 'Workers\' Compensation for Property Management',
-    metaDescription: 'Workers compensation insurance for maintenance staff, property managers, and leasing agents. Coverage for workplace injuries at apartment buildings and rental...',
+    metaDescription: 'Workers compensation insurance for maintenance staff, property managers, and leasing agents. Coverage for workplace injuries at apartment buildings and rental..',
     heroHeading: 'Workers\' Compensation Insurance',
     heroSubheading:
       'Mandatory coverage that provides wage replacement and medical benefits to employees injured while performing property maintenance, management, or leasing duties.',
@@ -342,7 +342,7 @@ export const coverages = [
     slug: 'earthquake-coverage',
     title: 'Earthquake Coverage',
     metaTitle: 'Earthquake Insurance for Apartment Buildings',
-    metaDescription: 'Earthquake insurance for apartment buildings and rental properties in seismic zones. Coverage for structural damage, retrofitting, and loss of rents after sei...',
+    metaDescription: 'Earthquake insurance for apartment buildings and rental properties in seismic zones. Coverage for structural damage, retrofitting, and loss of rents after sei..',
     heroHeading: 'Earthquake Coverage',
     heroSubheading:
       'Specialized coverage for buildings in seismic zones that protects against structural damage, foundation failure, and loss of rental income caused by earthquakes.',
@@ -398,7 +398,7 @@ export const coverages = [
     slug: 'builders-risk',
     title: 'Builders Risk',
     metaTitle: 'Builders Risk Insurance for Residential Construction',
-    metaDescription: 'Builders risk insurance for new apartment construction, renovations, and tenant improvement projects. Coverage for buildings under construction against fire, ...',
+    metaDescription: 'Builders risk insurance for new apartment construction, renovations, and tenant improvement projects. Coverage for buildings under construction against fire, ..',
     heroHeading: 'Builders Risk Insurance',
     heroSubheading:
       'Coverage for buildings under construction, major renovations, and tenant improvement projects that protects your investment during the build process.',
@@ -510,7 +510,7 @@ export const coverages = [
     slug: 'loss-of-rental-income',
     title: 'Loss of Rental Income',
     metaTitle: 'Loss of Rental Income Insurance for Landlords',
-    metaDescription: 'Loss of rental income insurance for landlords and property owners. Business interruption coverage that replaces rent during repairs from covered property dama...',
+    metaDescription: 'Loss of rental income insurance for landlords and property owners. Business interruption coverage that replaces rent during repairs from covered property dama..',
     heroHeading: 'Loss of Rental Income Insurance',
     heroSubheading:
       'Business interruption coverage that replaces the rental income you lose when a covered property damage event makes your units uninhabitable.',

@@ -14,10 +14,10 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://alkemeins.com/habitational'),
   title: {
-    template: '%s | ALKEME Insurance Services',
-    default: 'Habitational Insurance | ALKEME Insurance Services',
+    template: '%s | ALKEME',
+    default: 'Habitational Insurance | ALKEME',
   },
-  description: 'ALKEME Insurance Services provides specialized habitational insurance for apartment buildings, condominiums, rental properties, and property management companies. Coverage for property, liability, flood, and more.',
+  description: 'Specialized habitational insurance from ALKEME for apartments, condos, rentals, and property managers — property, liability, flood, and more.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -33,7 +33,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Habitational Insurance | ALKEME Insurance Services',
+    title: 'Habitational Insurance | ALKEME',
     description: 'Specialized habitational insurance for apartment buildings, condos, and rental properties across all 50 states.',
     images: ['https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&h=630&q=80'],
   },
